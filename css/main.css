@@ -12,9 +12,37 @@ section{
 }
 
 .blog{
+  width: 40%;
   padding: 20px;
   background-image: url("../img/Rectangle.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blog h1{
+  width: 400px;
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  line-height: 30px;
+  margin: 30px;
+}
+
+.blog a{
+  padding: 10px 50px;
+  border-radius: 20px;
+  border:2px solid #3f9cfb;
+  background-color: #2f7cd450;
+  color:white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.blog a:hover{
+  background-color: #2f81d4a2;
 }
